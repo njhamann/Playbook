@@ -296,9 +296,9 @@
 	};
 	4F82487612E248BD00243B2D /* dbUtil.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1296, 2340}}";
-			sepNavSelRange = "{321, 31}";
-			sepNavVisRange = "{149, 1487}";
+			sepNavIntBoundsRect = "{{0, 0}, {1296, 2301}}";
+			sepNavSelRange = "{2103, 0}";
+			sepNavVisRange = "{3034, 1867}";
 		};
 	};
 	4F82487712E248BD00243B2D /* maskUtil.h */ = {

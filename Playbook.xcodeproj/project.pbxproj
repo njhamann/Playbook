@@ -45,6 +45,7 @@
 		4F8248C312E24A8B00243B2D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8248C212E24A8B00243B2D /* libsqlite3.0.dylib */; };
 		4F8248C812E24AC100243B2D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8248C712E24AC100243B2D /* SystemConfiguration.framework */; };
 		4F8249F112E24B4800243B2D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8249F012E24B4800243B2D /* libz.dylib */; };
+		4F824A1E12E2586C00243B2D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F824A1D12E2586C00243B2D /* README.txt */; };
 		B280645912E09395007016E1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B280645812E09395007016E1 /* QuartzCore.framework */; };
 		B280645D12E093FE007016E1 /* carmodel.png in Resources */ = {isa = PBXBuildFile; fileRef = B280645C12E093FE007016E1 /* carmodel.png */; };
 /* End PBXBuildFile section */
@@ -121,6 +122,7 @@
 		4F8248C212E24A8B00243B2D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		4F8248C712E24AC100243B2D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4F8249F012E24B4800243B2D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4F824A1D12E2586C00243B2D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Playbook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Playbook-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B280645812E09395007016E1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B280645C12E093FE007016E1 /* carmodel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmodel.png; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				2899E5210DE3E06400AC0155 /* PlaybookViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Playbook-Info.plist */,
+				4F824A1D12E2586C00243B2D /* README.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* PlaybookViewController.xib in Resources */,
 				B280645D12E093FE007016E1 /* carmodel.png in Resources */,
+				4F824A1E12E2586C00243B2D /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
