@@ -1,0 +1,532 @@
+TPlaybook
+v7
+r0
+t316731576.597407
+cCheck dependencies
+cProcessInfoPlistFile /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist Playbook-Info.plist
+cCompileXIB /Users/nhamann/Desktop/Playbook/MainWindow.xib
+cCompileXIB /Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+cCpResource build/Debug-iphonesimulator/Playbook.app/carmodel.png carmodel.png
+cProcessPCH /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch.gch Playbook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o /Users/nhamann/Desktop/Playbook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o /Users/nhamann/Desktop/Playbook/Classes/itemController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook normal i386
+cGenerateDSYMFile /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+cTouch /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004D18A4F40000000000000110
+t1293460724
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.h
+c000000004D2FDBCB00000000000001E4
+t1294982091
+s484
+i<UIKit/UIKit.h>
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m
+c000000004D2FDBCB00000000000007B8
+t1294982091
+s1976
+i"PlaybookAppDelegate.h"
+i"PlaybookViewController.h"
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.h
+c000000004D2FF7670000000000000227
+t1294989159
+s551
+i<UIKit/UIKit.h>
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m
+c000000004D304A3B000000000000134B
+t1295010363
+s4939
+i"PlaybookViewController.h"
+i"itemController.h"
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.h
+c000000004D2FEA1D00000000000000E0
+t1294985757
+s224
+i<UIKit/UIKit.h>
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m
+c000000004D2FEDA500000000000008E4
+t1294986661
+s2276
+i"itemController.h"
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/MainWindow.xib
+c000000004D2FDBCB0000000000004D13
+t1294982091
+s19731
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/PlaybookViewController.xib
+c000000004D2FDBCB0000000000003EE5
+t1294982091
+s16101
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Playbook_Prefix.pch
+c000000004D2FDBCB00000000000000B9
+t1294982091
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app
+t1295010366
+s238
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM
+t1295010366
+s102
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist
+t1294982200
+s802
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/MainWindow.nib
+t1294982201
+s1125
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/PkgInfo
+t1294982200
+s8
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+t1295010366
+s25656
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/PlaybookViewController.nib
+t1294982201
+s764
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/Playbook.LinkFileList
+c000000004D2FEB74000000000000027B
+t1294986100
+s635
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o
+t1294989159
+s50356
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o
+t1295010366
+s58244
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o
+t1294986662
+s45464
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o
+t1294982202
+s6352
+
+N/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m
+c000000004D2FDBCB0000000000000169
+t1294982091
+s361
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.h
+c000000004D2FDBCB00000000000001E4
+t1294982091
+s484
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m
+c000000004D2FDBCB00000000000007B8
+t1294982091
+s1976
+i"PlaybookAppDelegate.h"
+i"PlaybookViewController.h"
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.h
+c000000004D30B28E000000000000024E
+t1295037070
+s590
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m
+c000000004D30B9380000000000001AB1
+t1295038776
+s6833
+i"PlaybookViewController.h"
+i"itemController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/itemController.h
+c000000004D2FEA1D00000000000000E0
+t1294985757
+s224
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/itemController.m
+c000000004D2FEDA500000000000008E4
+t1294986661
+s2276
+i"itemController.h"
+
+N/Users/nhamann/Desktop/Playbook/MainWindow.xib
+c000000004D2FDBCB0000000000004D13
+t1294982091
+s19731
+
+N/Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+c000000004D2FDBCB0000000000003EE5
+t1294982091
+s16101
+
+N/Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch
+c000000004D2FDBCB00000000000000B9
+t1294982091
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app
+t1295038776
+s272
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM
+t1295038776
+s102
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist
+t1294982200
+s802
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/MainWindow.nib
+t1294982201
+s1125
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/PkgInfo
+t1294982200
+s8
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+t1295038776
+s29840
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/PlaybookViewController.nib
+t1294982201
+s764
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/carmodel.png
+t1295016324
+s2495
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/Playbook.LinkFileList
+c000000004D30618400000000000001FF
+t1295016324
+s511
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o
+t1295038776
+s50340
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o
+t1295038776
+s61620
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o
+t1295016325
+s45404
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o
+t1295016325
+s6288
+
+N/Users/nhamann/Desktop/Playbook/carmodel.png
+c000000004D1F979000000000000009BF
+t1293916048
+s2495
+
+N/Users/nhamann/Desktop/Playbook/main.m
+c000000004D2FDBCB0000000000000169
+t1294982091
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch.gch
+t1294982202
+s15453392
+
+N/var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch.gch
+t1295016325
+s15453392
+
+NPlaybook-Info.plist
+c000000004D2FDBCB00000000000004D6
+t1294982091
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316731576#316731576#0(0"0(0#1#0"8648790752#0"0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316681959.880886
+e316681959.947535
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m316681959#316681959#0(0"0(0#0#92"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m8603490912#2236"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/include -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookAppDelegate.m -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316731576.279689
+e316731576.463406
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o
+x/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m316731576#316731576#0(0"0(0#0#61"/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m8644934624#1895"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -I/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookAppDelegate.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316703166.677279
+e316703166.818219
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m316703166#316703166#0(0"0(0#0#95"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m8616482688#2242"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/include -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/PlaybookViewController.m -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316731576.287973
+e316731576.534907
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o
+x/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m316731576#316731576#0(0"0(0#0#64"/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m8633867424#1901"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -I/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/PlaybookViewController.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316679462.421036
+e316679462.481110
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m316679462#316679462#0(0"0(0#0#87"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m8613076096#2226"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/include -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/itemController.m -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o /Users/nhamann/Desktop/Playbook/Classes/itemController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316709125.626738
+e316709125.711017
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o
+x/Users/nhamann/Desktop/Playbook/Classes/itemController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/nhamann/Desktop/Playbook/Classes/itemController.m316709125#316709125#0(0"0(0#0#56"/Users/nhamann/Desktop/Playbook/Classes/itemController.m8633580576#1885"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -I/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/itemController.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/itemController.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316675002.140778
+e316675002.269546
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m316675002#316675002#0(0"0(0#0#69"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m8604679968#2198"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/include -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/main.m -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o /Users/nhamann/Desktop/Playbook/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316709125.537630
+e316709125.594783
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o
+x/Users/nhamann/Desktop/Playbook/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/nhamann/Desktop/Playbook/main.m316709125#316709125#0(0"0(0#0#38"/Users/nhamann/Desktop/Playbook/main.m8614176832#1857"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -I/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/main.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/MainWindow.xib
+s316675000.725962
+e316675001.222022
+r1
+xCompileXIB
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316675000#316675001#0(0"0(0#0#77"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/MainWindow.xib8600821376#643"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/MainWindow.nib /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/PlaybookViewController.xib
+s316675000.727629
+e316675001.222348
+r1
+xCompileXIB
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/PlaybookViewController.xib
+lSLF07#2@37"CompileXIB PlaybookViewController.xib316675000#316675001#0(0"0(0#0#89"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/PlaybookViewController.xib8604790272#667"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/PlaybookViewController.nib /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/PlaybookViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/nhamann/Desktop/Playbook/MainWindow.xib
+r0
+
+CCompileXIB /Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/Playbook.app/carmodel.png carmodel.png
+s316709124.728423
+e316709124.735794
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Playbook.app/carmodel.png
+xcarmodel.png
+lSLF07#2@17"Copy carmodel.png316709124#316709124#0(0"0(0#0#44"/Users/nhamann/Desktop/Playbook/carmodel.png8624589792#450"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/nhamann/Desktop/Playbook/carmodel.png /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app0#
+
+CGenerateDSYMFile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+s316703166.845801
+e316703166.864966
+r1
+xGenerateDSYMFile
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Playbook.app.dSYM build/Debug-iphonesimulator/Playbook.app/Playbook316703166#316703166#0(0"0(0#0#112"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook8616299104#458"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM0#
+
+CGenerateDSYMFile /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+s316731576.571468
+e316731576.593489
+r1
+xGenerateDSYMFile
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Playbook.app.dSYM build/Debug-iphonesimulator/Playbook.app/Playbook316731576#316731576#0(0"0(0#0#81"/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook8652382624#365"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook -o /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app.dSYM0#
+
+CLd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook normal i386
+s316703166.818337
+e316703166.845658
+r1
+xLd
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+xnormal
+xi386
+lSLF07#2@117"Link /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook316703166#316703166#0(0"0(0#0#0"8611997088#1025"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -filelist /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/Playbook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook0#
+
+CLd /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook normal i386
+s316731576.534994
+e316731576.571375
+r1
+xLd
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook
+xnormal
+xi386
+lSLF07#2@86"Link /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook316731576#316731576#0(0"0(0#0#0"8652454304#892"    cd /Users/nhamann/Desktop/Playbook    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -filelist /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Objects-normal/i386/Playbook.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Playbook0#
+
+CProcessInfoPlistFile /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist Playbook-Info.plist
+s316675000.681439
+e316675000.725872
+r1
+xProcessInfoPlistFile
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist
+xPlaybook-Info.plist
+lSLF07#2@27"Process Playbook-Info.plist316675000#316675000#0(0"0(0#0#82"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Playbook-Info.plist34058888800895056#554"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Playbook-Info.plist -genpkginfo /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app/Info.plist Playbook-Info.plist
+r0
+
+CProcessPCH /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch.gch Playbook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316675001.222580
+e316675002.140631
+r1
+xProcessPCH
+x/var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch.gch
+xPlaybook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Playbook_Prefix.pch316675001#316675002#0(0"0(0#0#82"/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Playbook_Prefix.pch8605095136#2065"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/include -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Playbook_Prefix.pch -o /var/folders/-c/-c78MRPHHV4bwwiKAEQImE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Playbook_Prefix-apbchwlnnxubfvgsrjvunblpkqlt/Playbook_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch.gch Playbook_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316709124.735940
+e316709125.537511
+r1
+xProcessPCH
+x/var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch.gch
+xPlaybook_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Playbook_Prefix.pch316709124#316709125#0(0"0(0#0#51"/Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch8635398944#1755"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator -I/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources/i386 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphonesimulator/Playbook.build/DerivedSources -c /Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch -o /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bltvurhoylqeclapthytwqpscpfl/Playbook_Prefix.pch.gch0#
+
+CTouch /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app
+s316703166.865083
+e316703166.867685
+r1
+xTouch
+x/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app
+lSLF07#2@109"Touch /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app316703166#316703166#0(0"0(0#0#0"8611765440#327"    cd /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/build/Debug-iphonesimulator/Playbook.app0#
+
+CTouch /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app
+s316731576.593569
+e316731576.597109
+r1
+xTouch
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app
+lSLF07#2@78"Touch /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app316731576#316731576#0(0"0(0#0#0"8647206720#265"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nhamann/Desktop/Playbook/build/Debug-iphonesimulator/Playbook.app0#
+

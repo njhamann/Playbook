@@ -1,0 +1,397 @@
+TPlaybook
+v7
+r0
+t316732342.380008
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Playbook.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Info.plist Playbook-Info.plist
+cCompileXIB /Users/nhamann/Desktop/Playbook/MainWindow.xib
+cCompileXIB /Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+cCopyPNGFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/carmodel.png carmodel.png
+cProcessPCH /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch.gch Playbook_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/main.o /Users/nhamann/Desktop/Playbook/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookAppDelegate.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookViewController.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/itemController.o /Users/nhamann/Desktop/Playbook/Classes/itemController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook normal armv7
+cGenerateDSYMFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app.dSYM /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook
+cProcessProductPackaging "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision" /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+cTouch /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent
+cCodeSign /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004D18A43E0000000000000110
+t1293460542
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.h
+c000000004D2FDBCB00000000000001E4
+t1294982091
+s484
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m
+c000000004D2FDBCB00000000000007B8
+t1294982091
+s1976
+i"PlaybookAppDelegate.h"
+i"PlaybookViewController.h"
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.h
+c000000004D30B28E000000000000024E
+t1295037070
+s590
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m
+c000000004D30B9380000000000001AB1
+t1295038776
+s6833
+i"PlaybookViewController.h"
+i"itemController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/itemController.h
+c000000004D2FEA1D00000000000000E0
+t1294985757
+s224
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/Classes/itemController.m
+c000000004D2FEDA500000000000008E4
+t1294986661
+s2276
+i"itemController.h"
+
+N/Users/nhamann/Desktop/Playbook/MainWindow.xib
+c000000004D2FDBCB0000000000004D13
+t1294982091
+s19731
+
+N/Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+c000000004D2FDBCB0000000000003EE5
+t1294982091
+s16101
+
+N/Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch
+c000000004D2FDBCB00000000000000B9
+t1294982091
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+t1295038840
+s408
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app.dSYM
+t1295038840
+s102
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Info.plist
+t1295016252
+s992
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/MainWindow.nib
+t1295016253
+s1125
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/PkgInfo
+t1295016252
+s8
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook
+t1295038840
+s31712
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/PlaybookViewController.nib
+t1295016253
+s764
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/ResourceRules.plist
+t1295016252
+s485
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/carmodel.png
+t1295016253
+s2718
+
+N/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+t1295038840
+s14655
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/Playbook.LinkFileList
+c000000004D30613C00000000000001E7
+t1295016252
+s487
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookAppDelegate.o
+t1295038840
+s49956
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookViewController.o
+t1295038840
+s59372
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/itemController.o
+t1295016253
+s44800
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/main.o
+t1295016253
+s6416
+
+N/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent
+t1295038840
+s422
+
+N/Users/nhamann/Desktop/Playbook/carmodel.png
+c000000004D1F979000000000000009BF
+t1293916048
+s2495
+
+N/Users/nhamann/Desktop/Playbook/main.m
+c000000004D2FDBCB0000000000000169
+t1294982091
+s361
+i<UIKit/UIKit.h>
+
+N/Users/nhamann/Library/MobileDevice/Provisioning Profiles/86EAC913-C127-4D00-89D1-7AF36D7B8C4A.mobileprovision
+c000000004D1B8D0B0000000000003B6A
+t1293651211
+s15210
+
+N/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision
+c000000004D1B551F000000000000393F
+t1293636895
+s14655
+
+N/var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch.gch
+t1295016253
+s10446552
+
+NPlaybook-Info.plist
+c000000004D2FDBCB00000000000004D6
+t1294982091
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316732342#316732342#0(0"0(0#1#0"8651121440#0"0#
+
+CCodeSign /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+s316731640.286072
+e316731640.835144
+r1
+xCodeSign
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Playbook.app316731640#316731640#0(0"0(0#0#65"/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app8650262048#624"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Alex Girard (879MU4A84Y)" --resource-rules=/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/ResourceRules.plist --entitlements /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app0#
+
+CCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookAppDelegate.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316731639.979200
+e316731640.107792
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookAppDelegate.o
+x/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m316731639#316731640#0(0"0(0#0#61"/Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m8630065824#1705"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -I/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources/armv7 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/PlaybookAppDelegate.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookAppDelegate.o0#
+
+CCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookViewController.o /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316731639.998137
+e316731640.168111
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookViewController.o
+x/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m316731639#316731640#0(0"0(0#0#64"/Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m8653806016#1711"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -I/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources/armv7 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/PlaybookViewController.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/PlaybookViewController.o0#
+
+CCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/itemController.o /Users/nhamann/Desktop/Playbook/Classes/itemController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316709053.860470
+e316709053.953142
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/itemController.o
+x/Users/nhamann/Desktop/Playbook/Classes/itemController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/nhamann/Desktop/Playbook/Classes/itemController.m316709053#316709053#0(0"0(0#0#56"/Users/nhamann/Desktop/Playbook/Classes/itemController.m8636139232#1695"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -I/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources/armv7 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/Classes/itemController.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/itemController.o0#
+
+CCompileC build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/main.o /Users/nhamann/Desktop/Playbook/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316709053.763617
+e316709053.852115
+r1
+xCompileC
+xbuild/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/main.o
+x/Users/nhamann/Desktop/Playbook/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/nhamann/Desktop/Playbook/main.m316709053#316709053#0(0"0(0#0#38"/Users/nhamann/Desktop/Playbook/main.m8636969824#1667"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -I/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources/armv7 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources -include /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch -c /Users/nhamann/Desktop/Playbook/main.m -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/nhamann/Desktop/Playbook/MainWindow.xib
+s316709052.731467
+e316709053.113355
+r1
+xCompileXIB
+x/Users/nhamann/Desktop/Playbook/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib316709052#316709053#0(0"0(0#0#46"/Users/nhamann/Desktop/Playbook/MainWindow.xib8601596704#522"    cd /Users/nhamann/Desktop/Playbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/MainWindow.nib /Users/nhamann/Desktop/Playbook/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+s316709052.732314
+e316709053.153645
+r1
+xCompileXIB
+x/Users/nhamann/Desktop/Playbook/PlaybookViewController.xib
+lSLF07#2@37"CompileXIB PlaybookViewController.xib316709052#316709053#0(0"0(0#0#58"/Users/nhamann/Desktop/Playbook/PlaybookViewController.xib8634527552#546"    cd /Users/nhamann/Desktop/Playbook    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/PlaybookViewController.nib /Users/nhamann/Desktop/Playbook/PlaybookViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/carmodel.png carmodel.png
+s316709053.113450
+e316709053.140041
+r1
+xCopyPNGFile
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/carmodel.png
+xcarmodel.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Playbook.app/carmodel.png carmodel.png316709053#316709053#0(0"0(0#0#44"/Users/nhamann/Desktop/Playbook/carmodel.png8636928608#544"    cd /Users/nhamann/Desktop/Playbook    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/nhamann/Desktop/Playbook/carmodel.png /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/carmodel.png0#
+
+CCpResource build/Debug-iphoneos/Playbook.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s316709052.712106
+e316709052.728317
+r1
+xCpResource
+xbuild/Debug-iphoneos/Playbook.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist316709052#316709052#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8633719936#481"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app0#
+
+CGenerateDSYMFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app.dSYM /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook
+s316731640.239132
+e316731640.259028
+r1
+xGenerateDSYMFile
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app.dSYM
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Playbook.app.dSYM build/Debug-iphoneos/Playbook.app/Playbook316731640#316731640#0(0"0(0#0#74"/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook8613355616#344"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook -o /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app.dSYM0#
+
+CLd /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook normal armv7
+s316731640.168207
+e316731640.239042
+r1
+xLd
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook
+xnormal
+xarmv7
+lSLF07#2@79"Link /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook316731640#316731640#0(0"0(0#0#0"8651498688#814"    cd /Users/nhamann/Desktop/Playbook    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -filelist /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Objects-normal/armv7/Playbook.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Playbook0#
+
+CProcessInfoPlistFile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Info.plist Playbook-Info.plist
+s316709052.712906
+e316709052.731385
+r1
+xProcessInfoPlistFile
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Info.plist
+xPlaybook-Info.plist
+lSLF07#2@27"Process Playbook-Info.plist316709052#316709052#0(0"0(0#0#51"/Users/nhamann/Desktop/Playbook/Playbook-Info.plist8633571072#538"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Playbook-Info.plist -genpkginfo /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/ResourceRules.plist -o /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/Info.plist0#
+
+CProcessPCH /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch.gch Playbook_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s316709053.153764
+e316709053.763518
+r1
+xProcessPCH
+x/var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch.gch
+xPlaybook_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Playbook_Prefix.pch316709053#316709053#0(0"0(0#0#51"/Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch8636530080#1571"    cd /Users/nhamann/Desktop/Playbook    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-generated-files.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-own-target-headers.hmap -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-all-target-headers.hmap -iquote /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook-project-headers.hmap -F/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos -I/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/include -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources/armv7 -I/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/DerivedSources -c /Users/nhamann/Desktop/Playbook/Playbook_Prefix.pch -o /var/folders/A4/A4lNc1+OEg0Y1Gd8CFKnR++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/Playbook_Prefix-bjvfpkryoymvyhbzxhdwqffffkut/Playbook_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/86EAC913-C127-4D00-89D1-7AF36D7B8C4A.mobileprovision" /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+s316728311.945927
+e316728311.947878
+r1
+xProcessProductPackaging
+x/Users/nhamann/Library/MobileDevice/Provisioning Profiles/86EAC913-C127-4D00-89D1-7AF36D7B8C4A.mobileprovision
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/86EAC913-C127-4D00-89D1-7AF36D7B8C4A.mobileprovision" build/Debug-iphoneos/Playbook.app/embedded.mobileprovision316728311#316728311#0(0"0(0#0#90"/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision8652552032#412"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/86EAC913-C127-4D00-89D1-7AF36D7B8C4A.mobileprovision" -o /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision" /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+s316731640.259474
+e316731640.260786
+r1
+xProcessProductPackaging
+x/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision" build/Debug-iphoneos/Playbook.app/embedded.mobileprovision316731640#316731640#0(0"0(0#0#90"/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision8653500224#412"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/nhamann/Library/MobileDevice/Provisioning Profiles/EA470600-3245-457C-A25C-179B87C8AD75.mobileprovision" -o /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent
+s316731640.265161
+e316731640.285992
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent316731640#316731640#0(0"0(0#0#97"/Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent8651425472#421"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/nhamann/Desktop/Playbook/build/Playbook.build/Debug-iphoneos/Playbook.build/Playbook.xcent0#
+
+CTouch /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+s316731640.260846
+e316731640.265065
+r1
+xTouch
+x/Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app
+lSLF07#2@71"Touch /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app316731640#316731640#0(0"0(0#0#0"8652248480#251"    cd /Users/nhamann/Desktop/Playbook    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/nhamann/Desktop/Playbook/build/Debug-iphoneos/Playbook.app0#
+

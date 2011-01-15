@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>MainWindow.nib</key>
+		<data>
+		57Q3vnmDbi1Nxoc0H49eYDlidCE=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PlaybookViewController.nib</key>
+		<data>
+		+arMZ4B2BPxi4+CV2kp6Q76Aa/o=
+		</data>
+		<key>carmodel.png</key>
+		<data>
+		pOKEHhkUBkfdC9cGy/X2n7KXSm0=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		j4g9ZAaCYRENlCd+Ir5HZh0WRHA=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
