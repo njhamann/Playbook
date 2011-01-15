@@ -32,7 +32,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	self.view.frame = CGRectMake(0, 0, 100, 100);
+	self.view.frame = CGRectMake(0, 0, 50, 50);
 	self.view.backgroundColor = [UIColor blackColor];
 	
 }
@@ -45,7 +45,7 @@
 	
 	if (touch.tapCount == 2) {
 	}else if(touch.tapCount == 1){
-		
+		NSLog(@"1 tap");
 	}
 	
 }

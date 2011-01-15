@@ -1,0 +1,43 @@
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController viewDidLoad]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:37: error: 'animCounter' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:37: error: (Each undeclared identifier is reported only once
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:37: error: for each function it appears in.)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:38: error: 'isRecording' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:39: error: 'isPlaying' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:40: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:41: warning: 'playViewController' may not respond to '-buildButtons'
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:41: warning: (Messages without a matching method signature
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:41: warning: will be assumed to return 'id' and accept
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:41: warning: '...' as arguments.)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController playAnimation:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:152: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:156: error: 'paths' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:161: error: 'animationTime' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController buildAnimation]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:171: error: 'animationTime' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:171: error: 'itemsPos' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:183: error: 'paths' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController startTimer:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:191: error: 'paths' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:192: error: 'itemsPos' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:193: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:198: error: 'isRecording' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:199: error: 'timer' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController updateCounter:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:205: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:209: error: 'itemsPos' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController stopTimer:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:215: error: 'isRecording' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:216: error: 'timer' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController packageCurrentPlay]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:256: error: 'paths' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:257: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:258: error: 'animationTime' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController displayLoadedPlay:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:264: error: 'animationTime' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:265: error: 'paths' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:266: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m: In function '-[playViewController touchesBegan:withEvent:]':
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:304: error: 'isRecording' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:310: error: 'items' undeclared (first use in this function)
+/Users/Noah/Development/Application/Mobile/Apple/iPad/Playbook/Classes/playViewController.m:312: error: 'itemsPos' undeclared (first use in this function)
